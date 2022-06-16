@@ -1,0 +1,257 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+        
+        
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "what services do you offer?",
+        "What kinds of services are there?",
+        "What do you offer?"
+      ],
+      "responses": [
+        "We offer =Main workout area, Cardio area/exercise theatre,Group exercises classes,Sport facilities,Personal training,yogaand we also have supliment shop in the gym itself "
+       
+      ]
+    },
+    {
+      "tag": "Arm",
+      "patterns": [
+        "Exercises for Arm?",
+        " list some Arm workouts",
+        "what are the exercises for arms",
+        "tell me some exercises for arms",
+        "how i can train my arms",
+        "Arm workout?",
+        "Arm Exercises"
+        
+      ],
+      "responses": [
+        
+        "9 ARM EXERCISES FOR DEFINITION & STRENGT=Anatomy Review,Arm Workout Tips,Barbell Biceps Curl,Cable Tricep Extension,Hammer Curls,Bench Dumbbell Tricep Extensions,Cable Bicep Curls With Shoulder Flexed,Cable Tricep Extensions With Shoulder Flexed,Wrist Flexion,Wrist Extension,Wrist Supination/Pronation"
+      ]
+    },
+    {
+      "tag": "chest",
+      "patterns": [
+        "Exercises for chest?",
+        " list some chest workouts",
+        "chest workout?",
+        "what are the exercises for chest",
+        "tell me some exercises for chest",
+        "how i can train my chest",
+        "chest Exercises"
+        
+      ],
+      "responses": [
+        
+        "Chest Exercises for Men=Barbell Bench Press,Cable Crossover,Chest Press,Pec Fly,Push Up "
+      ]
+    },
+    {
+      "tag": "Legs",
+      "patterns": [
+        "Exercises for Legs?",
+        " list some Legs workouts",
+        "what are the exercises for legs",
+        "tell me some exercises for legs",
+        "how i can train my legs",
+        "Legs workout?",
+        "Legs Exercises"
+        
+      ],
+      "responses": [
+        
+        "10 Best Leg Exercises=Barbell Back Squat,Barbell Front Squat,Olympic Lifts: Snatch and Power Clean,Deadlift,Split Squat,Hack Squat,Lunge,Leg Press,Romanian Deadlift,Leg Curl"
+      ]
+    },
+    {
+      "tag": "Shoulders",
+      "patterns": [
+        "Exercises for Shoulders?",
+        " list some Shoulder workouts",
+        "Shoulder workout?",
+        "what are the exercises for Shoulders",
+        "tell me some exercises for Shoulders",
+        "how i can train my Shoulders",
+        "Shoulder Exercises"
+        
+      ],
+      "responses": [
+        
+        "10 Best Shoulder Exercises for Building Muscle=Military Press,Rear Delt Row,Seated Dumbbell Press,Seated Barbell Press,Upright Row,Arnold Press,Rear Delt Fly,Lateral Raise,Front Raise"
+      ]
+    },
+    {
+      "tag": "Back",
+      "patterns": [
+        "Exercises for Back?",
+        " list some Back workouts",
+        "what are the exercises for back",
+        "tell me some exercises for back",
+        "how i can train my back",
+        
+        "Back workout?",
+        "Back Exercises"
+        
+      ],
+      "responses": [
+        
+        " 10 Best Back Exercises=Deadlift,Bent-Over Row,Pull-Up,T-Bar Row,Seated Row,Single-Arm Smith Machine Row,Lat Pull-Down,Single-Arm Dumbbell Row,Dumbbell Pull-Over,Chest-Supported Row"
+      ]
+    },
+    {
+      "tag": "Abs",
+      "patterns": [
+        "Exercises for Abs?",
+        "Abs workout?",
+        "what are the exercises for abs",
+        "tell me some exercises for abs",
+        "how i can train my abs",
+        " list some Abs workouts",
+        "Abs Exercises"
+        
+      ],
+      "responses": [
+        
+        "Chest Exercises for Men=Barbell Bench Press, Cable Crossover,Chest Press,Pec Fly,Push Up"
+      ]
+    },
+    {
+      "tag": "fullbody",
+      "patterns": [
+        "exercises for full body workout?",
+        "full body workout?",
+        "what are the exercises for full body workout",
+        "tell me some exercises for full body workout ",
+        "how i can train my body workout",
+        "workout for full body",
+        " list some workout for full body"
+        
+      ],
+      "responses": [
+        
+        "The Best Full Body Workout Routine. 1 Exercise 1: Barbell Bench Press. The first exercise is the barbell bench press and is going to be your main chest exercise for this workout. It’s ... 2 Exercise 2: Barbell Back Squat. 3 Exercise 3: Pull-Ups. 4 Exercise 4: Lying Dumbbell Hamstring Curls. 5 Exercise 5: Standing Overhead Press. "
+      ]
+    },
+    {
+      "tag": "Timings",
+      "patterns": [
+        "Gym timing",
+        "Gym opens at",
+        "what are the gym timings",
+        "gym closes at"
+      ],
+      "responses": [
+        "6Am to 10 pm"
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "Food chart for workout",
+        "Things to eat for workout",
+        "what should we eat for good health",
+        "what should we eat for gym workout",
+        "food guide for gym",
+        "food"
+      ],
+      "responses": [
+        "Breakfast=Whole-grain cereals or brea,Low-fat milk,Juice,A banana,YogurtA pancakeAn.Snack= energy bar,A banana, an apple or other fresh fruit,Yogurt,A fruit smoothie,A whole-grain bagel or crackers,A low-fat granola bar,A peanut butter sandwich,Sports drink or diluted juice.Eat after you exercise=Yogurt and fruit,Peanut butter sandwich,Low-fat chocolate milk and pretzels,Post-workout recovery smoothie,Turkey on whole-grain bread with vegetables,"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "How much do you charge for a month?",
+        "Fees for the gym",
+        "charges for gym"
+      ],
+      "responses": [
+        "we charge 2000 rupees for a month and if yoy pay for whole year then you have to pay for only 11 months"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "What is the address of this gym",
+        "gym address",
+        "location of this gym",
+        "where this gym is located",
+        "where is this gym"
+      ],
+      "responses": [
+        "building no 123,bandla teh palampur,kangra,himachal pardesh"
+      ]
+    },
+    {
+      "tag": "contacts",
+      "patterns": [
+        "contacts",
+        "phone no",
+        "email",
+        "haw can i contact you"
+        
+      ],
+      "responses": [
+        "ph no=854473885 Email=suneetkatoch7@gmail.com"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
